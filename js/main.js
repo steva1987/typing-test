@@ -57,7 +57,17 @@ function comp1Start() {
 			textarea2.value += comTextAr.shift();
 		}else {
 			pobednik++;
-			player2.className="btn btn-success form-control"
+			if (pobednik == 1) {
+				player2.className="btn btn-success form-control"
+			}if (pobednik == 2) {
+				player3.className="btn btn-primary form-control"
+			}
+			if (pobednik == 3) {
+				player2.className="btn btn-info form-control"
+			}
+			if (pobednik == 4) {
+				player2.className="btn btn-default form-control"
+			}
 			player2.innerHTML="Pozicija "+pobednik;
 			clearInterval(loop);
 		}
@@ -72,7 +82,17 @@ function comp2Start() {
 			textarea3.value += comTextAr.shift();
 		}else {
 			pobednik++;
-			player3.className="btn btn-success form-control";
+			if (pobednik == 1) {
+				player3.className="btn btn-success form-control"
+			}if (pobednik == 2) {
+				player3.className="btn btn-primary form-control"
+			}
+			if (pobednik == 3) {
+				player3.className="btn btn-info form-control"
+			}
+			if (pobednik == 4) {
+				player3.className="btn btn-default form-control"
+			}
 			player3.innerHTML="Pozicija "+pobednik;
 			clearInterval(loop);
 		}
@@ -87,7 +107,17 @@ function comp3Start() {
 			textarea4.value += comTextAr.shift();
 		}else {
 			pobednik++;
-			player4.className="btn btn-success form-control";
+			if (pobednik == 1) {
+				player4.className="btn btn-success form-control"
+			}if (pobednik == 2) {
+				player3.className="btn btn-primary form-control"
+			}
+			if (pobednik == 3) {
+				player4.className="btn btn-info form-control"
+			}
+			if (pobednik == 4) {
+				player4.className="btn btn-default form-control"
+			}
 			player4.innerHTML="Pozicija "+pobednik;
 			clearInterval(loop);
 		}
